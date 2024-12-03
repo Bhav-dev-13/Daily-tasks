@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee page</title>
+</head>
+<body>
+    <header align="center">
+        <img src="rachels-logo-black-websticky.png" width="250px" height="100px">
+        <nav>
+            <!-- Using inline elements to keep links side by side -->
+            <h1>
+                <a href="#home" style="margin-right: 20px;">Home</a>
+                <a href="#story" style="margin-right: 20px;">Story</a>
+                <a href="#about" style="margin-right: 20px;">About</a>
+                <a href="#menu" style="margin-right: 20px;">Menu</a>
+                <a href="#contact">Contact</a>
+            </h1>
+        </nav>
+        <hr>
+        <br>
+    </header>
+    <main>
+<h1 id="home"></h1>
+<iframe src="https://rachelscoffeehouse.ca/" frameborder="0" width="640" height="350"></iframe>
+
+        <h2 id="story">Let's hear the story</h2>
+
+        <!-- Coffee image with overlay text -->
+        <div style="position: relative; text-align: center; width: 100%; height: 75%;">
+            <img src="coffee1.jpg" alt="coffee" title="Rachel’s coffee" style="width: 100%; height: auto;">
+            <div style="
+                position: absolute;
+                top: 50%; 
+                left: 50%;
+                transform: translate(-50%, -50%);
+                color: white;
+                background-color: black;
+                font-size: 48px;
+                font-weight: bold;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+            ">
+                Get the door. It’s Rachel!
+            </div>
+        </div>
+
+        <h1>Now, where were we?</h1>
+        <div style="display: flex; justify-content: space-between; align-items: center; font-family: Arial, sans-serif; font-size: 20px; padding: 20px; color: #333;">
+        <div style="margin-right: 50px;">
+        <p>
+            Rachel’s Coffee House is a new independent cafe founded by a pair of longtime Toronto coffee veterans. Maria Chan and her husband, Jack, owned a Second Cup franchise in the Eaton Centre for thirteen years. After years of confiding to the franchise guidelines, they decided it was time to take the plunge and go independent.
+        </p>
+    </div>
+    <div style="margin-right: 50px;">
+        <p>
+            Serving up fresh coffee beverages made from locally roasted, organic, fair trade coffee beans. Delicious pastries, baked goods, and savoury sandwiches made from natural ingredients with few, if any, preservatives. A deceptively spacious location with plenty of seating and cozy front patio. These are the things that keep customers coming back.
+        </p>
+    </div>
+</div>
+    <article id="about">
+        <table >
+            <tr>
+                <td><img src="cup.webp" alt="cup-icon-150" width="300" height="300"></td>
+                <td><img src="croissant.webp" alt="croissant-icon-150" width="300" height="300"></td>
+                <td><img src="coffeeicon.png" alt="coffee-icon-150" width="300" height="300"></td>
+                <td><img src="food icon.png" alt="food-icon-150" width="300" height="300"></td>
+            </tr>
+        </table>
+        <table width="100%" height="100%">
+            <tr>
+                <!-- Left Column: Text -->
+                <td width="50%" valign="top">
+                    <h1>We always use fresh organic ingredients
+                        We bake fresh croissants each morning in house, and have an assortment of gluten-free eats. We guarantee you won’t leave with an empty stomach!</h1>
+                <table>
+                    <td>
+                        <img src="blendeddrink.jpg">
+                    </td>
+                    <td>
+                        <h3>Blended Drinks:
+                            We offer specialty blended drinks such as virgin pina coladas, strawberry mango smoothies, and vanilla creme drinks.
+                            
+                        </h3>
+                    </td>
+                </table>
+                <table>
+                    <td>
+                        <img src="matchalatte.jpg">
+                    </td>
+                    <td>
+                        <h3>
+                            Espresso Drinks:
+                            We have a large variety of espresso drinks. Give one of our almond or matcha lattes a try!
+                        </h3>
+                    </td>
+                </table>
+                    </td>
+    
+                <!-- Right Column: Image -->
+                <td width="50%" valign="top">
+                    <iframe src="https://www.shutterstock.com/shutterstock/videos/1053980582/preview/stock-footage-hot-coffee-is-poured-into-a-cup-from-a-coffee-pot.webm" frameborder="0" width="640" height="360" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </td>
+            </tr>
+        </table>
+    </article>
+    <h1 align="center">We're Better. We're Fresher</h1>
+    <section id="menu" style="padding: 20px;">
+        <div style="display: flex; justify-content: space-between; margin-bottom: 20px;">
+            <div style="width: 30%; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                <h2 style="text-align: center; color: #333;">Espresso Creations</h2>
+                <ul style="list-style-type: none; padding-left: 0; font-size: 18px; color: #333;">
+                    <li>Cafe Latte</li>
+                    <li>Cappuccino</li>
+                    <li>Mocha</li>
+                    <li>Caramel Latte</li>
+                    <li>Vanilla Latte</li>
+                    <li>Almond Latte</li>
+                    <li>Macadamia Latte</li>
+                    <li>Americano/Espresso</li>
+                </ul>
+            </div>
+            <div style="width: 30%; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                <h2 style="text-align: center; color: #333;">Smoothies</h2>
+                <ul style="list-style-type: none; padding-left: 0; font-size: 18px; color: #333;">
+                    <li>Mango</li>
+                    <li>Strawberry Mango</li>
+                    <li>Blueberry Banana</li>
+                    <li>Mixed Berries</li>
+                    <li>Truly Latte</li>
+                    <li>Chocoholics</li>
+                    <li>Vanilla Creme</li>
+                </ul>
+            </div>
+            <div style="width: 30%; background-color: #f9f9f9; padding: 20px; border-radius: 8px; box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);">
+                <h2 style="text-align: center; color: #333;">Coffee Alternatives</h2>
+                <ul style="list-style-type: none; padding-left: 0; font-size: 18px; color: #333;">
+                    <li>Chai Latte</li>
+                    <li>Matcha Latte</li>
+                    <li>London Fog</li>
+                    <li>Hot Chocolate</li>
+                    <li>Freshly Squeezed Lemonade</li>
+                    <li>Matcha Lemonade</li>
+                    <li>Honey Ginger</li>
+                    <li>Honey Lemon</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <footer id="contact">
+        <h1 align="center">big city variety, small town price</h1>
+        <h1 align="center"> 
+        <details>
+          <summary>visit our place once.</summary>
+            <p>Please feel free to contact us via our form below if you have any questions or concerns. It is our goal and pleasure to make our existing and new customers feel right at home. For quickest answers, and catering possibilities, please call us directly. We can’t wait to see you!</p>
+        </details>
+        <br>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2884.458978110602!2d-79.39915004862465!3d43.70100987901727!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b33393294226d%3A0x33657758a06a646c!2sRachel's+Coffeehouse!5e0!3m2!1sen!2sca!4v1504132133241" width="400" height="300" frameborder="0" style="border: 0px; pointer-events: none;" allowfullscreen=""></iframe>
+    </footer>
+    
+               
+    
+    
+        
+        
+
+</main>
+
+
+</body>
+</html>
